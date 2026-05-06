@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panduan Belajar - WebMaster Academy</title>
+  <meta name="description" content="Website belajar web profesional bertahap dari HTML, CSS, PHP hingga MySQL dengan sistem belajar harian.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+  <div class="page-shell">
+    
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"></span>
+      <span>
+        WebMaster Academy
+        <small>Belajar Web Harian 30 Hari per Track</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a class="nav-link" href="index.html">Dashboard</a>
+      <div class="dropdown">
+        <button class="dropbtn">Materi ▾</button>
+        <div class="dropdown-content">
+          <a href="html.html">Track HTML</a>
+          <a href="css.html">Track CSS</a>
+          <a href="php.html">Track PHP</a>
+          <a href="mysql.html">Track MySQL</a>
+        </div>
+      </div>
+      <a class="nav-link" href="panduan.html">Panduan</a>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-card">
+            <span class="eyebrow">Panduan Pemakaian</span>
+            <h1>Cara Mengerjakan Website Belajar Ini</h1>
+            <p class="lead">Website ini dibuat supaya kamu belajar web seperti kursus harian. Jadi bukan satu halaman panjang, melainkan dipisah per topik dan per hari agar tidak ribet.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid-2">
+          <article class="lesson-panel">
+            <h2>Urutan belajar yang disarankan</h2>
+            <ol class="list-clean">
+              <li>Mulai dari <strong>Track HTML</strong>, kerjakan Hari 1 sampai Hari 30.</li>
+              <li>Lanjut ke <strong>Track CSS</strong> supaya struktur HTML yang sudah kamu buat bisa didesain dengan rapi.</li>
+              <li>Setelah itu masuk ke <strong>Track PHP</strong> untuk belajar backend.</li>
+              <li>Terakhir pelajari <strong>Track MySQL</strong> untuk basis data.</li>
+            </ol>
+          </article>
+          <article class="lesson-panel">
+            <h2>Isi setiap halaman harian</h2>
+            <ul class="list-clean">
+              <li><strong>Penjelasan materi:</strong> konsep dan landasan hari itu.</li>
+              <li><strong>Canvas/editor:</strong> tempat mengetik ulang starter code.</li>
+              <li><strong>Referensi solusi:</strong> bisa ditampilkan setelah kamu mencoba sendiri.</li>
+              <li><strong>Study case:</strong> tugas mini yang harus kamu kerjakan.</li>
+              <li><strong>Pilgan & essay:</strong> latihan pemahaman sesuai hari itu.</li>
+            </ul>
+          </article>
+          <article class="lesson-panel">
+            <h2>Cara latihan yang benar</h2>
+            <ol class="list-clean">
+              <li>Jangan langsung buka referensi kode.</li>
+              <li>Ketik dulu dengan tanganmu sendiri di editor.</li>
+              <li>Lihat preview untuk HTML dan CSS.</li>
+              <li>Kalau salah, baru bandingkan dengan referensi.</li>
+              <li>Tambahkan modifikasi kecil supaya benar-benar paham.</li>
+            </ol>
+          </article>
+          <article class="lesson-panel">
+            <h2>Untuk PHP dan MySQL</h2>
+            <p class="muted">Pada halaman PHP dan MySQL, editor dipakai untuk latihan sintaks dan logika. Preview visual tidak dijalankan di browser statis. Supaya bisa praktik nyata, jalankan file PHP di server lokal seperti XAMPP/Laragon dan jalankan query MySQL di phpMyAdmin atau terminal database.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <strong>Inti sistem ini</strong>
+          <p class="muted">Belajar sedikit demi sedikit, mengetik banyak, dan tidak loncat. Itu yang membuat dasar web development jadi kuat.</p>
+          <p class="small muted">© <span id="year"></span> WebMaster Academy</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="assets/lessons.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

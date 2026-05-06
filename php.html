@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track PHP - WebMaster Academy</title>
+  <meta name="description" content="Website belajar web profesional bertahap dari HTML, CSS, PHP hingga MySQL dengan sistem belajar harian.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body data-page="topic" data-topic="php">
+  <div class="page-shell">
+    
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"></span>
+      <span>
+        WebMaster Academy
+        <small>Belajar Web Harian 30 Hari per Track</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a class="nav-link" href="index.html">Dashboard</a>
+      <div class="dropdown">
+        <button class="dropbtn">Materi ▾</button>
+        <div class="dropdown-content">
+          <a href="html.html">Track HTML</a>
+          <a href="css.html">Track CSS</a>
+          <a href="php.html">Track PHP</a>
+          <a href="mysql.html">Track MySQL</a>
+        </div>
+      </div>
+      <a class="nav-link" href="panduan.html">Panduan</a>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-card">
+            <div class="topic-hero">
+              <div>
+                <span class="badge badge-php" id="lesson-topic-badge">PHP</span>
+                <h1 id="topic-name">PHP</h1>
+                <p class="lead" id="topic-intro">Belajar backend dengan PHP secara bertahap: sintaks dasar, alur logika, pemrosesan form, modularisasi, session, keamanan dasar, hingga CRUD dan mini project yang terhubung ke database.</p>
+                <div class="hero-actions">
+                  <a class="btn btn-primary" href="pages/php/day-01.html">Mulai Hari 1</a>
+                  <a class="btn btn-soft" href="index.html">Kembali ke dashboard</a>
+                </div>
+              </div>
+              <div class="stack">
+                <div class="stat-card">
+                  <span class="muted">Total Hari</span>
+                  <strong id="topic-total">30 Hari</strong>
+                  <span class="small muted" id="topic-track">Track PHP</span>
+                </div>
+                <div class="stat-card">
+                  <span class="muted">Progress Track</span>
+                  <strong id="topic-progress">0 / 30 selesai</strong>
+                  <span class="small muted">Tersimpan di browser</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <div>
+              <h2>Kurikulum 30 Hari PHP</h2>
+              <p>Klik salah satu kartu hari di bawah ini untuk membuka materi lengkap, latihan mengetik, study case, pilgan, dan essay.</p>
+            </div>
+          </div>
+          <div id="day-cards" class="day-grid"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <strong>Tips Belajar PHP</strong>
+          <p class="muted">Jangan loncat terlalu jauh. Selesaikan hari demi hari agar pemahamanmu benar-benar bertumpuk dan tidak bolong.</p>
+          <p class="small muted">© <span id="year"></span> WebMaster Academy</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="assets/lessons.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

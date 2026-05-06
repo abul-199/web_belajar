@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebMaster Academy - Dashboard</title>
+  <meta name="description" content="Website belajar web profesional bertahap dari HTML, CSS, PHP hingga MySQL dengan sistem belajar harian.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body data-page="dashboard">
+  <div class="page-shell">
+    
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"></span>
+      <span>
+        WebMaster Academy
+        <small>Belajar Web Harian 30 Hari per Track</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a class="nav-link" href="index.html">Dashboard</a>
+      <div class="dropdown">
+        <button class="dropbtn">Materi ▾</button>
+        <div class="dropdown-content">
+          <a href="html.html">Track HTML</a>
+          <a href="css.html">Track CSS</a>
+          <a href="php.html">Track PHP</a>
+          <a href="mysql.html">Track MySQL</a>
+        </div>
+      </div>
+      <a class="nav-link" href="panduan.html">Panduan</a>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-card">
+            <span class="eyebrow">Kursus Harian • Multi-Page • Editable</span>
+            <div class="hero-grid">
+              <div>
+                <h1>Belajar Web dari Dasar Sampai Mahir dengan Jalur Harian yang Jelas</h1>
+                <p class="lead">Setiap track dipisah per topik dan per hari. Jadi kamu tidak bingung belajar dari mana. Mulai dari HTML dasar seperti <span class="kbd">h1</span>, paragraf, link, dan form, lalu naik ke CSS, PHP, dan MySQL sampai project final.</p>
+                <div class="hero-actions">
+                  <a class="btn btn-primary" href="html.html">Mulai dari HTML Hari 1</a>
+                  <a class="btn btn-soft" href="panduan.html">Lihat cara mengerjakan</a>
+                </div>
+              </div>
+              <div class="stats-panel">
+                <div class="stat-card">
+                  <span class="muted">Total Track</span>
+                  <strong>4</strong>
+                  <span class="small muted">HTML, CSS, PHP, MySQL</span>
+                </div>
+                <div class="stat-card">
+                  <span class="muted">Total Hari</span>
+                  <strong>120</strong>
+                  <span class="small muted">30 hari per track</span>
+                </div>
+                <div class="stat-card">
+                  <span class="muted">Progress Selesai</span>
+                  <strong id="stat-total-done">0</strong>
+                  <span class="small muted">Tersimpan di browser</span>
+                </div>
+                <div class="stat-card">
+                  <span class="muted">Mode Belajar</span>
+                  <strong>Typing + Case</strong>
+                  <span class="small muted">Materi, canvas, pilgan, essay</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <div>
+              <h2>Pilih Track Belajarmu</h2>
+              <p>Setiap track punya halaman sendiri dan 30 kartu hari yang bisa dibuka satu per satu.</p>
+            </div>
+          </div>
+          <div id="track-cards" class="grid-4"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid-2">
+          <article class="card">
+            <h2>Alur yang paling enak dipakai</h2>
+            <ol class="list-clean">
+              <li>Buka track HTML dan kerjakan Hari 1 sampai selesai.</li>
+              <li>Ketik ulang starter code di studio/canvas pada halaman harian.</li>
+              <li>Bandingkan dengan referensi solusi, lalu modifikasi sendiri.</li>
+              <li>Kerjakan study case, jawab pilgan, dan isi essay.</li>
+              <li>Tandai selesai, lalu lanjut ke hari berikutnya.</li>
+            </ol>
+          </article>
+          <article class="card">
+            <h2>Apa yang kamu dapat</h2>
+            <ul class="list-clean">
+              <li>Materi harian yang terstruktur, bukan one-page panjang.</li>
+              <li>Editor latihan untuk mengetik ulang kode agar tangan terbiasa.</li>
+              <li>Preview langsung untuk HTML dan CSS.</li>
+              <li>Study case harian agar tidak hanya membaca teori.</li>
+              <li>Quiz pilgan dan essay yang mengikuti hari yang sedang dibuka.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <strong>WebMaster Academy</strong>
+          <p class="muted">Belajar web bertahap dengan struktur file HTML yang jelas, banyak halaman, dan mudah diedit di VS Code.</p>
+          <p class="small muted">© <span id="year"></span> WebMaster Academy</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="assets/lessons.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
